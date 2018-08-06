@@ -1,0 +1,11 @@
+{"timestamp": "02/01/2018 00:00", "session_id" : 1234 , "step_id": "STEP 1", "step_details" : {"location" : "dublin","start_date": "05/01/2018 03:00","end_date": "07/01/2018 03:00" }}
+02/01/2018 00:01|1234|book_btn|IFAR
+02/01/2018 00:01|1234|STEP 2|{"result" : [{ "id": 1232, "provider" : "avis","car_type": "mini","price": "50", "currency": "euro"} ] }
+02/01/2018 00:03,1234,STEP 3,{"addional_features" : { "id": 1232, "extra_driver":false: ,"gps": false }
+02/01/2018 00:03,1234,STEP 4,{"driver_details" : [{"first_name": "john", "last_name" : "smith"}] }
+02/01/2018 00:04,1234,STEP 5,{"type" : "credit_card","card_num": "343445465","expiry_data": "07/01/2025 03:00" }
+02/01/2018 00:05,1234,STEP 6,{"paymemt_status" : "success" }
+02/01/2018 00:07,1234,flightNum,enter
+02/01/2018 00:04,1234,flightNum,type
+02/01/2018 00:05,1234,flightNum,enter
+02/01/2018 00:06,1234,flightNum,leave
