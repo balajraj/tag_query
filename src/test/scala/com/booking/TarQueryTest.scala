@@ -19,7 +19,8 @@ class TarQueryTest extends FunSuite with BeforeAndAfterAll {
 
   test( "most Recent Tag should return the num of Most recent tags ") {
     //println("dir current" + new File(".").getCanonicalPath());
-    TagQueryBatch.mostRecentTags("src/test/resources/", sc,2)
+    val result = TagQueryBatch.groupSteps("src/test/resources/", sc)
+    TagQueryBatch.mostRecentTags(result,1)
   }
 
   override def afterAll(): Unit = {
