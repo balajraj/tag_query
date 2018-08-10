@@ -6,5 +6,4 @@ To run the test please exceute the following command,
 mvn test
 ```
 
-
-The input files for the test are found in src/test/resources directory. The project assumed mvn is installed in the system trying to run the tests.
+The input files for the test are found in src/test/resources directory. The project assumes mvn is installed in the system trying to run the tests.
